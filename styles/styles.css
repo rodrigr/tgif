@@ -1,0 +1,44 @@
+/* ===================Header======================== */
+
+.logo{
+  width: 100px;
+}
+header a{
+  color: black;
+  text-decoration: none;
+}
+
+header a:hover{
+  color: black;
+}
+.mail{
+  width: 50px;
+}
+
+/* ===================Read Button======================== */
+
+.btn-text .second-btn{
+  display:inline;
+}
+.btn-text:not(.collapsed)  .first-btn{
+  display:none;
+}
+.btn-text.collapsed .second-btn{
+  display:none;
+}
+
+/* ===================Backgrounds======================== */
+
+.house {
+  background-image: url(house.png);
+}
+.senate{
+  background-image: url(senate.png);
+}
+
+.house, .senate{
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
